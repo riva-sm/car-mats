@@ -1,0 +1,104 @@
+html,
+body {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.header {
+  background: linear-gradient(
+    269.91deg,
+    rgba(46, 49, 146, 0.7) 0%,
+    rgba(212, 20, 90, 0.7) 98.16%
+  );
+  padding-top: 2.3rem;
+  padding-bottom: 2.6rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 63%;
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .header__phone-img {
+  width: 2rem;
+  height: 2rem;
+}
+.header__maps-img {
+  width: 1.5rem;
+  height: 2.5rem;
+}
+.header__maps-img {
+  width: 3rem;
+  height: 3rem;
+} */
+
+.header__phone,
+.header__maps,
+.header__inst {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17.2rem 12rem 8.4rem 12rem;
+}
+.footer__wrap li {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 114%;
+}
+.footer__title {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 114%;
+  text-transform: uppercase;
+}
+.footer__details {
+  width: 22.4rem;
+}
+
+.footer__decor-1 {
+  width: 11rem;
+  height: 12.5rem;
+  position: absolute;
+  left: 20%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+}
+.footer__decor-2 {
+  width: 23.3rem;
+  height: 26.4rem;
+  position: absolute;
+  left: 77%;
+  top: 47%;
+  transform: translate(-50%, -50%);
+}
